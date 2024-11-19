@@ -1,6 +1,6 @@
-package StrategyDesignPattern;
+package StrategyDesignPattern.StrategyPattern;
 
-public class FastestTimeStrategy implements StrategyInterface{
+public class SmallestDistanceStrategy implements StrategyInterface{
 
     @Override
     public RouteUnit getNeighbourRoute(RoutePostions routePostions, RouteUnit routeUnit) {

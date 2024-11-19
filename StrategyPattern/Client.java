@@ -1,4 +1,4 @@
-package StrategyDesignPattern;
+package StrategyDesignPattern.StrategyPattern;
 
 public class Client {
 

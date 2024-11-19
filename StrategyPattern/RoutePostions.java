@@ -1,5 +1,6 @@
-package StrategyDesignPattern;
+package StrategyDesignPattern.StrategyPattern;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class RoutePostions {
@@ -7,6 +8,7 @@ public class RoutePostions {
     private StrategyInterface strategy;
     RoutePostions(StrategyInterface strategy){
         this.strategy = strategy;
+        this.routes = new ArrayList<>();
     }
     public void addRoutes(RouteUnit routeUnits){
         routes.add(routeUnits);
